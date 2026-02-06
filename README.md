@@ -117,21 +117,45 @@ type,title,date,duration,distance,calories,avgHR,maxHR,pace,notes
 
 ## 📸 Demo Screenshots
 
-All demo screenshots are stored in a single folder:
+All demo screenshots are stored in the following folder:
 
-/screenshots/
 
-### Screenshots included
-- User Registration
-- Login
-- Dashboard Overview
-- CSV Upload Success
-- Workout History Table
-- Charts Visualization
-- PDF Export Output
-- AI Insights Response
+Click on any item below to view the full screenshot.
 
-👉 Click any image in GitHub to view it in full size.
+### 🖼️ Application Flow Screenshots
+
+- [📝 User Registration](screenshots/01-register.png)
+- [🔐 User Login](screenshots/02-login.png)
+- [📊 Dashboard Overview](screenshots/03-dashboard_FullPage.png)
+- [📤 CSV Upload / Manual Entry](screenshots/04-csv-upload_OR_ManualENTRY.png)
+- [📋 Workout History Table](screenshots/05-workout-list.png)
+- [📈 Charts Visualization](screenshots/06-charts.png)
+- [📄 PDF Export Output](screenshots/07-pdf-export.png)
+
+### 🤖 AI Insights Screenshots
+
+- [AI Insights – Page 1](screenshots/08-ai-insights_1ST_HalfPage.png)
+- [AI Insights – Page 2](screenshots/08-ai-insights_2nd_MiddlePage.png)
+- [AI Insights – Page 3](screenshots/08-ai-insights_3rd_LastPage.png)
+
+### 🧠 Training Plan PDF Screenshots
+
+- [Training Plan – Page 1](screenshots/09-Training_Plan_1st.png)
+- [Training Plan – Page 2](screenshots/09-Training_Plan_2nd.png)
+- [Training Plan – Page 3](screenshots/09-Training_Plan_3rd.png)
+- [Training Plan – Page 4](screenshots/09-Training_Plan_4st.png)
+
+### 🗄️ Database Screenshots
+
+- [MongoDB Users Collection](screenshots/12_DB_Users.png)
+- [MongoDB Workouts Collection](screenshots/11_DB_Workouts.png)
+
+### 👤 Profile
+
+- [Profile Update Screen](screenshots/10-ProfileUpdate.png)
+
+👉 Click any link above to open the screenshot directly in GitHub.
+
 
 ## 🔁 Date Filtering Logic (Important)
 
