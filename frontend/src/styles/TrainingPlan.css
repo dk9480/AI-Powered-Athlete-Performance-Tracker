@@ -1,0 +1,446 @@
+.training-plan-page {
+  padding: 20px;
+}
+
+.plan-generator-section {
+  margin-bottom: 40px;
+}
+
+.generator-card {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.generator-card h2 {
+  margin: 0 0 25px;
+  color: #333;
+}
+
+.form-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.btn-lg {
+  padding: 12px 30px;
+  font-size: 16px;
+}
+
+.plan-preview-section {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.plan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #007bff;
+}
+
+.header-content h2 {
+  margin: 0 0 15px;
+  color: #333;
+}
+
+.plan-meta {
+  display: flex;
+  gap: 25px;
+  color: #666;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.meta-item .label {
+  font-size: 12px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.meta-item .value {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.progression-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.progression-section h3 {
+  margin: 0 0 15px;
+  color: #333;
+}
+
+.progression-section p {
+  margin: 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+.metrics-section {
+  margin-bottom: 40px;
+}
+
+.metrics-section h3 {
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.metric-card {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.metric-number {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  background: #28a745;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.metric-card p {
+  margin: 0;
+  color: #666;
+  line-height: 1.5;
+}
+
+.weeks-section {
+  margin-bottom: 40px;
+}
+
+.weeks-section h3 {
+  margin: 0 0 25px;
+  color: #333;
+}
+
+.weeks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.week-card {
+  background: white;
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  padding: 25px;
+  transition: border-color 0.3s ease;
+}
+
+.week-card:hover {
+  border-color: #007bff;
+}
+
+.week-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.week-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.week-focus {
+  padding: 6px 15px;
+  background: #007bff;
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.week-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.goals-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.goal-tag {
+  padding: 4px 10px;
+  background: #e9ecef;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #495057;
+}
+
+.week-schedule {
+  margin-bottom: 25px;
+}
+
+.week-schedule h4 {
+  margin: 0 0 15px;
+  color: #333;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.day-slot {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.day-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.day-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.workout-type {
+  font-size: 12px;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.workout-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.detail.full-width {
+  flex-direction: column;
+  gap: 2px;
+}
+
+.detail .label {
+  color: #666;
+}
+
+.detail .value {
+  color: #333;
+  font-weight: 500;
+}
+
+.recovery-section {
+  padding-top: 20px;
+  border-top: 1px solid #e9ecef;
+}
+
+.recovery-section h4 {
+  margin: 0 0 15px;
+  color: #333;
+}
+
+.recovery-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recovery-list li {
+  padding: 8px 0;
+  color: #666;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.recovery-list li:last-child {
+  border-bottom: none;
+}
+
+.recovery-list li:before {
+  content: "✓";
+  color: #28a745;
+  margin-right: 10px;
+}
+
+.notes-section {
+  margin-bottom: 40px;
+}
+
+.notes-section h3 {
+  margin: 0 0 15px;
+  color: #333;
+}
+
+.notes-card {
+  background: #f8f9fa;
+  border-left: 4px solid #007bff;
+  padding: 20px;
+  border-radius: 0 8px 8px 0;
+}
+
+.notes-card p {
+  margin: 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+.plan-footer {
+  padding-top: 30px;
+  border-top: 1px solid #e9ecef;
+}
+
+.disclaimer {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  padding: 15px;
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 6px;
+}
+
+.footer-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.no-plan-section {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+}
+
+.placeholder-card {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.placeholder-card h3 {
+  margin: 0 0 15px;
+  color: #333;
+}
+
+.placeholder-card p {
+  margin: 0 0 40px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.placeholder-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.feature h4 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.feature p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .plan-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .plan-meta {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .schedule-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-actions {
+    flex-direction: column;
+  }
+  
+  .placeholder-features {
+    grid-template-columns: 1fr;
+  }
+}
