@@ -96,3 +96,15 @@ athlete-training-app/
 │   │   └── styles/      # CSS files
 │
 └── README.md
+
+
+```
+
+---
+
+## 🧪 CSV Upload Format
+
+Use this exact CSV header format:
+
+```csv
+type,title,date,duration,distance,calories,avgHR,maxHR,pace,notes
