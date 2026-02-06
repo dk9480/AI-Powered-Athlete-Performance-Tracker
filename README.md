@@ -108,3 +108,91 @@ Use this exact CSV header format:
 
 ```csv
 type,title,date,duration,distance,calories,avgHR,maxHR,pace,notes
+```
+### Notes
+- Only valid workout types are accepted
+- Invalid types (for example: `yoga`) are rejected by backend validation
+- Date format must be **YYYY-MM-DD**
+
+
+## 📸 Demo Screenshots
+
+All demo screenshots are stored in a single folder:
+
+/screenshots/
+
+### Screenshots included
+- User Registration
+- Login
+- Dashboard Overview
+- CSV Upload Success
+- Workout History Table
+- Charts Visualization
+- PDF Export Output
+- AI Insights Response
+
+👉 Click any image in GitHub to view it in full size.
+
+## 🔁 Date Filtering Logic (Important)
+
+- Workout dates represent when the activity actually occurred and remain fixed.
+- Views and exports are **dynamic** and depend on:
+  - Selected start and end date
+  - “Last 30 days” logic calculated using the current system date
+- PDF exports always respect the selected filters.
+
+This makes the application **future-proof and production-ready**.
+
+## ⚙️ Environment Setup
+
+Create a `.env` file inside the `backend` folder:
+
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_url
+JWT_SECRET=your_jwt_secret
+GEMINI_API_KEY=your_gemini_api_key
+
+
+```
+
+## ▶️ Running the Project Locally
+
+### Backend
+```bash
+cd backend
+npm install
+npm start
+
+``` 
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
+### Local URLs
+- Frontend: http://localhost:3000
+- Backend: http://localhost:5000
+
+
+## 🧠 What This Project Demonstrates
+
+- Full-stack web development
+- Secure authentication & authorization
+- RESTful API design
+- File uploads and validation
+- AI integration with fallback logic
+- Data visualization and analytics
+- Production-style filtering and reporting
+
+## 👨‍💻 Author
+
+**D K VIJENDRA KUMAR**  
+B.Tech Student  
+Full-Stack Development | AI/ML | Data-Driven Applications
+
+
+
+
+
