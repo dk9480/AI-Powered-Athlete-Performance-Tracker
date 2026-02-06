@@ -147,7 +147,7 @@ Click on any item below to view the full screenshot.
 ### 🗄️ Database Screenshots
 
 - [MongoDB Users Collection](screenshots/12_DB_Users.png)
-- [MongoDB Workouts Collection](screenshots/11_DB_Workouts.png)
+- [MongoDB Workouts Collection](screenshots/11-DB_Workouts.png)
 
 ### 👤 Profile
 
