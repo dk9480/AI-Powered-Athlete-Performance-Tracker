@@ -1,0 +1,8 @@
+type,title,date,duration,distance,calories,avgHR,maxHR,pace,notes
+run,Morning Run,2024-01-15,45,5.2,450,145,160,8.65,"Good pace, felt strong"
+cycle,Afternoon Ride,2024-01-16,60,20.5,600,138,155,2.93,"Windy conditions"
+lift,Upper Body,2024-01-17,50,0,320,120,140,,"Bench press, rows, shoulder press"
+run,Interval Training,2024-01-18,40,6.0,520,155,175,6.67,"8x400m intervals"
+swim,Pool Session,2024-01-19,45,1.5,400,135,150,30.00,"Focus on technique"
+run,Long Run,2024-01-20,90,12.5,1100,140,165,7.20,"Building endurance"
+yoga,Recovery Session,2024-01-21,30,0,180,100,120,,"Focus on flexibility"
