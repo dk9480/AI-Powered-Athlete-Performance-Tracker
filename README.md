@@ -73,7 +73,6 @@ This project demonstrates real-world backend logic, dynamic date filtering, AI i
 
 ---
 
-## 📂 Project Structure
 
 ## 📂 Project Structure
 
